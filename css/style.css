@@ -12,7 +12,7 @@ h1, h2, h3 {
 /*NAVEGAÇÃO*/
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: #191970;
 }
@@ -27,7 +27,7 @@ nav > a {
 
 nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     list-style: none;
     padding: 0;
@@ -69,6 +69,9 @@ header p {
     margin-bottom: 2em;
 }
 
+
+/* Seções */
+    /* Sobre */
 #about {
     display: flex;
     flex-direction: column;
@@ -87,3 +90,36 @@ header p {
     margin-bottom: 2.5em;
     max-width: 1000px;
 }
+
+    /* Serviços */
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;   
+}
+
+#services div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#services div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#services p {
+    margin: 16px 16px;
+}
+
+.images {
+    height: 300px;
+    width: 98%;
+}
+    /* Contatos */
