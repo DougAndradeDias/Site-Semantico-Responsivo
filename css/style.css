@@ -2,6 +2,7 @@
 body {
     font-family: Nunito, sans-serif;
     color: #1c1c1c;
+    background-color: whitesmoke;
 }
 
 h1, h2, h3 {
@@ -23,6 +24,7 @@ nav > a {
     font-weight: 800;
     font-size: 32px;
     font-family: Yellowtaill, sans-serif;
+    margin: 10px;
 }
 
 nav ul {
@@ -78,7 +80,7 @@ header p {
     align-items: center;
     text-align: center;
     padding: 10px 10px 20px 20px;
-    background-color: #191970;
+    background-color: #212174;
     color: #FFFFFF;
 }
 
@@ -96,30 +98,50 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;   
+    padding: 30px;  
 }
-
+ /**/
 #services div {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
+    margin-top: 30px;
 }
 
 #services div div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     text-align: center;
     margin-top: 30px;
 }
 
 #services p {
-    margin: 16px 16px;
+    margin: 48px 16px;
 }
 
 .images {
-    height: 300px;
-    width: 98%;
+    height: 50%;
+    width: 50%;
+    max-width: 1000px;
+    border-radius: 10px;
+    
 }
+
     /* Contatos */
+#contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacts div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+#contacts div img {
+    margin-right: 10px;
+}
